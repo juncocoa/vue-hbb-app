@@ -1,0 +1,115 @@
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    height: 100%;
+  }
+body {
+  height: 100%;
+}
+.v-easy-refresh-footer *{ font-size: initial; box-sizing: border-box; }
+.v-easy-refresh-header *{ font-size: initial; box-sizing: border-box; }
+.v-easy-refresh .v-easy-refresh-body{ z-index: 1; }
+.page {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: #FFF;
+}
+#app *{
+  font-family: PingFang-SC-Bold, Source Han Sans, Avenir,Helvetica Neue,Arial,Helvetica,sans-serif;
+}
+#app {
+  position: relative;
+  height: 100%;
+}
+#app .van-tabs .van-tab--active .van-ellipsis{
+  font-weight:bold; font-size: 15px;
+}
+#app .divModal .van-tabs__line{
+  bottom: 0.4rem; z-index: 0;
+}
+#app .divHome .van-tabs__line{
+  bottom: 0.4rem; z-index: 0;
+}
+#app .divStudy .van-tabs__line{
+  bottom: 0.4rem; z-index: 0;
+}
+#app .divCourse .van-tabs__line{
+  bottom: 0.4rem; z-index: 0;
+}
+#app .divFavorites .van-tabs__line{
+  bottom: 0.4rem; z-index: 0;
+}
+#app .divMyRoom .van-tabs__line{
+  bottom: 0.4rem; z-index: 0;
+}
+#app .divStudy .van-progress__pivot{
+  display: none;
+}
+#app .divFeedback .van-icon-delete{
+  background-image: url('~@/assets/images/feedback/delete.png');
+  background-repeat: no-repeat; background-size: 100% 100%;
+  width: 30px; height: 30px; top: 0;  border-top-right-radius: 10px;
+}
+#app .divFeedback .van-icon-delete::before{
+  content: '';
+}
+#app .divFeedback .van-uploader .van-image__img{
+  border-radius: 10px;
+}
+#app .divAudioCourse .van-slider__button{
+  border: 1.5px solid rgb(245,110,137); width: 14px; height: 14px;
+  box-shadow: none; background-color: #FFF;
+}
+#app .divHome .van-swipe__indicators{
+  bottom: 20px;
+}
+#app .divBrowsingHistory .van-icon{
+  font-family: vant-icon;
+}
+#app .divCouponList .van-icon{
+  font-family: vant-icon;
+}
+#app .divCouponList .van-checkbox__label{
+  font-size: 14px; color: #333333; font-weight: 500;
+}
+#app .divAudioCourse .van-pull-refresh{
+  overflow: initial;
+}
+#app .divLiveCourse .van-progress{
+  background: rgba(0,0,0,.1);
+}
+#app .divProgress .van-steps{
+  background-color: transparent; margin: 15px;
+  margin-top: 25px; color: #999999;
+}
+#app .divProgress .van-steps .van-step--vertical .van-step__line{
+  height: 75%; top: 28px; background-color: #CECECE;
+}
+#app .divProgress .van-steps .van-step__circle-container .van-step__circle{
+  width: 6px; height: 6px; background-color: #CECECE;
+}
+#app .divProgress .van-steps .van-step--vertical .van-step__circle-container{
+  left: -14px;
+}
+#app .divProgress .van-steps .van-step__circle-container .van-icon{
+  font-family: vant-icon;
+}
+#app .divProgress .van-steps .van-step--vertical:first-child::before{
+  background-color: transparent;
+}
+#app .divProgress .van-steps .van-step--process .van-step__title .divTitle{
+  font-weight: bold;
+}
+#app .divProgress .van-hairline::after{
+  border: none;
+}
+#app .van-image .van-image__error{
+  background-color: transparent;
+}
+#app .divCourse .divRichText img,audio,video{
+  width: 100%;
+}
