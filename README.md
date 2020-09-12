@@ -11,8 +11,7 @@
 ```
 
 ## 项目展示图
-
-[![file618481400839.gif](https://i.postimg.cc/HHWHgY0v/file618481400839.gif)](https://postimg.cc/yWFfB2BN)
+![file](https://s1.ax1x.com/2020/09/12/wap9cd.png)
 
 ### 运行 与 打包
 
